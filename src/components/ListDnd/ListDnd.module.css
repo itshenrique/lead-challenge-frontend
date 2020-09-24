@@ -1,0 +1,49 @@
+.list table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list thead {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #949494;
+  color: white;
+}
+
+.list thead td {
+  font-size: 1vw;
+  width: 500px;
+}
+
+.list tbody {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.list td {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.drop-area {
+  flex: 1;
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+}
+.draggable-context {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  /* width: 50%; */
+}
+
+.droppapble {
+  flex: 1;
+  width: 500px;
+  text-align: center;
+}

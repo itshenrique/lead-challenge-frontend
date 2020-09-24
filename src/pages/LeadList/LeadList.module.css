@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.container-horizontal {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.container-list {
+  display: flex;
+  flex: 1;
+}
+
+.date-selector-header {
+  color: white;
+}
+
+.date-selector {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(174, 174, 174);
+  margin: 6px;
+  padding: 3px;
+  flex: 1;
+}
